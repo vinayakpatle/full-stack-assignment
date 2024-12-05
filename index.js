@@ -1,4 +1,6 @@
 const express = require('express')
+const mongoose = require("mongoose")
+// in above we added mongoose library to connect with our mongodb database
 const app = express()
 const port = 3001
 
